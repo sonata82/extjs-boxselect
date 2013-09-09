@@ -1483,7 +1483,7 @@ Ext.define('Ext.ux.form.field.BoxSelect', {
     /**
 	 * Overridden to use inputEl instead of raw value and to avoid the use of placeholder
 	 */
-    preFocus : function(){
+    beforeFocus : function(){
         var me = this,
         inputEl = me.inputEl,
         emptyText = me.emptyText,
